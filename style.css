@@ -3,6 +3,7 @@
 body {
   background-color: rgb(190,201,255);
   background-image: linear-gradient(90deg, rgba(190,201,255,1) 0%, rgba(255,210,219,1) 100%);
+  overflow-y: hidden;
 }
 
 :root {
@@ -23,6 +24,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-y: hidden;
 }
 
 a {
