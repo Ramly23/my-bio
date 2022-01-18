@@ -4,52 +4,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon Ico -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!--========== BOX ICONS ==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!--========== CSS ==========-->
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/21bf2f8b90.js" crossorigin="anonymous"></script>
+
   <title>My Bio</title>
 </head>
 <body>
 
-  <div class="wrapper">
-    <div class="container">
-      <div class="inner">
+  <!-- Two Circles -->
+  <div class="card__circle card__circle1"></div>
+  <div class="card__circle card__circle2"></div>
 
-        <div class="row">
-          <div class="col">
-            <img src="pfp.jpg" alt="pfp">
-          </div>
-          <div class="col">
-            <h3>俊华 <ion-icon name="heart" class = 'icon'></ion-icon></h3>
-            <p>Taurus (>ω<)</p>
-          </div>
+  <!-- Card Itself -->
+  <div class="card__glass">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col">
+          <!-- First Img -->
+          <img src="images/pfp.jpg" alt="pfp" class="card__img">
         </div>
-        
-        <div class="about-me">
-          <span>About Me</span>
-          <p>当你笑容满面，感觉这世界填满了色彩</p>
-          <p>开心的时间，总是过得很快</p>
-          <p>蓝桉已遇释槐鸟，不爱万物唯爱你，释怀来去无归期，梦回已逐浮云散，我愿为蓝桉</p>
+        <div class="col">
+          <h3 class="card__title">俊华 <ion-icon name="heart" class = 'icon'></ion-icon></h3>
+          <p>Taurus (>ω<)</p>
         </div>
-
-        <div class="social">
-          <span><i class="fab fa-facebook-square icon social-icon"></i><a href="https://www.facebook.com/cho.chunwah" target = "_blank">Facebook</a></span>
-          <span><i class="fab fa-instagram icon social-icon"></i><a href="https://www.instagram.com/pls_relax_bro/?hl=en" target = "_blank">Instagram</a></span>
-          <span><i class="fab fa-discord icon social-icon"></i><a href="https://discord.gg/yh6WtCNvxr" target = "_blank">Discord</a></span>
-        </div>
-        
-        <div class="last">
-          <p><span>微信号</span> : yingyingguai7777</p>
-          <h3>花落  <ion-icon name="heart" class = 'icon'></ion-icon></h3>
-        </div>
-
+      </div>
+  
+      <div class="about-me">
+        <span>About Me</span>
+        <p>开心的时间，总是过得很快</p>
+        <p>当你笑容满面，感觉这世界填满了色彩</p>
+        <p>蓝桉已遇释槐鸟，不爱万物唯爱你，</p>
+        <p>释怀来去无归期，梦回已逐浮云散，我愿为蓝桉</p>
+      </div>
+  
+      <div class="card__social">
+        <a href="https://www.facebook.com/cho.chunwah" target = "_blank" class="card__link"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://www.instagram.com/pls_relax_bro/?hl=en" target = "_blank" class="card__link"><i class='bx bxl-instagram'></i></a>
+        <a href="https://discord.gg/yh6WtCNvxr" target = "_blank" class="card__link"><i class='bx bxl-discord-alt'></i></a>
+      </div>
+  
+      <div class="last">
+        <h3>花落  <ion-icon name="heart" class = 'icon'></ion-icon></h3>
       </div>
     </div>
+
   </div>
 
-  <!-- Icons -->
-<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
-
 </html>
